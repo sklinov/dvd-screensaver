@@ -4,7 +4,7 @@ import { Screen } from './components/Screen/Screen';
 const App = () => {
   return (
     <div className="App">
-      <Screen />
+      <Screen width={800} height={450}/>
     </div>
   );
 }
